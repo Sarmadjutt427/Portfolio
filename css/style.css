@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #081b29;
+    color: #fff;
+    max-width: 100%;
+    height: 100%;
+}
+
+.header .navbar {
+    padding: 25px
+}
+
+.header span {
+    color: #0ef;
+}
+
+.header .container .logo {
+    font-size: 2.5rem;
+}
+
+.header .container a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.header .navbar-nav {
+    padding-left: 20rem;
+}
+
+.header .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.header .navbar-nav :hover {
+    color: rgb(223, 74, 74);
+}
+
+/* .header .navbar-nav .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s;
+    display: block;
+}
+
+.header .navbar-nav .nav-link:hover {
+    color: rgb(223, 74, 74);
+    border-color: rgb(223, 74, 74);
+    padding-bottom: 0px;
+} */
+
+.header .navbar-toggler {
+    box-shadow: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* main section css */
+
+
+.home {
+    padding: 100px 0;
+}
+
+.home .container h1,
+h3 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.home .container h1 span {
+    color: #0ef;
+}
+
+.home .container p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+.home .container p span {
+    color: rgb(223, 74, 74);
+    font-size: 2rem;
+}
+
+
+.home img {
+    height: 500px;
+    width: 500px;
+    padding-top: 20px;
+}
+
+.home .social {
+    padding-top: 30px;
+}
+
+.home .social a {
+    color: #0ef;
+    border: 2px solid #0ef;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.home .social a:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.home .btn {
+    background-color: #0ef;
+    border: 2px solid #0ef;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.home .btn:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+/* about section css */
+
+.about-me {
+    margin-top: 50px;
+}
+
+.about-me img {
+    height: 450px;
+    width: 450px;
+}
+
+.about-me h2 {
+    font-size: 3rem;
+}
+
+.about-me h2 span {
+    color: #0ef;
+}
+
+.about-me h4 span {
+    color: #0ef;
+}
+
+.about-me h4 {
+    font-size: 2rem;
+}
+
+.about-me p {
+    color: #fff;
+}
+
+.expertise {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    flex-flow: wrap;
+}
+
+.expertise i {
+    font-size: 1.5em;
+    color: #0ef;
+}
+
+.contact-info i {
+    color: #0ef;
+    margin-right: 1.2rem;
+}
+
+.fa-python{
+    margin-left: 100px;
+}
+
+
+/* Service section css */
+
+.service {
+    background-color: #081b29;
+    margin-top: 70px;
+}
+
+.ser1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ser1 span {
+    color: #0ef;
+}
+
+.card-body {
+    background-color: #081b29;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(217, 206, 206, 0.5);
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-title span {
+    color: #0ef;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+/* skill bar section css */
+
+.section-title {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.section-title span {
+    color: #0ef;
+}
+
+.skill-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.skill-bar {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 30px;
+    z-index: -1;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.skill-fill {
+    background: #0ef;
+    height: 30px;
+    border-radius: 100px;
+    position: relative;
+}
+
+.skill-percent {
+    font-size: 20px;
+    padding-left: 250px;
+    margin-top: -30px;
+    position: absolute;
+}
+
+.html {
+    animation: html 2s;
+    width: 80%;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.js {
+    animation: js 2s;
+    width: 70%;
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.py {
+    animation: py 2s;
+    width: 60%;
+}
+
+@keyframes py {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+/* contact css */
+
+.contact {
+    padding: 100px 0;
+}
+
+.contact .cont-us {
+    margin: auto;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contact h2 span {
+    color: #0ef;
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.contact .btn {
+    background-color: #0ef;
+    border: 2px solid #0ef;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contact .btn:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+/* footer css */
+
+footer {
+    background-color: #081b29;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+footer h5{
+    font-size: 1.5rem;
+}
+
+footer a {
+    color: #0ef;
+}
+
+@media screen and (max-width:480px) {
+    .header .navbar-nav {
+        padding-left: 8rem;
+    }
+
+    .home .container h1,
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .home .container p {
+        font-size: 1.5rem;
+    }
+
+    .home .container p span {
+        font-size: 1.5rem;
+    }
+
+    .home img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .about .about-text p {
+        font-size: 1.2rem;
+    }
+
+    .about .about-text h2 {
+        margin-bottom: 15px;
+    }
+
+    .about .btn {
+        margin-bottom: -60px;
+    }
+
+    #service .card {
+        width: 320px;
+        height: 275px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .about .img1 img {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .header .navbar-nav {
+        padding-left: 12rem;
+    }
+
+    .card-hover{
+        margin: 20px;
+        height: 220px;
+    }
+    .skill-bar{
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .home img {
+        height: 400px;
+        width: 400px;
+        padding-top: 20px;
+        margin-top: -100px;
+
+    }
+
+    .home .container h1,
+    h3 {
+        font-size: 2rem;
+    }
+
+    .home .container p {
+        font-size: 1.5rem;
+    }
+
+    .home .container p span {
+        font-size: 1.3rem;
+    }
+
+    .expertise{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    #service .back{
+        padding-top: 15px;
+        margin-left: 180px;
+        width: 380px;
+    }
+
+    .about .about-text p {
+        font-size: 1.2rem;
+    }
+
+    .about-me img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .about-me h2{
+        margin-top: -1rem;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #service .card {
+        width: 450px;
+    }
+
+    .header .navbar-nav .nav-item {
+        margin-right: 2px;
+    }
+}
