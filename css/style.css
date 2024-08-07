@@ -186,9 +186,7 @@ h3 {
     margin-right: 1.2rem;
 }
 
-.fa-python{
-    margin-left: 100px;
-}
+
 
 
 /* Service section css */
@@ -371,7 +369,8 @@ footer {
     padding: 2rem 0;
     text-align: center;
 }
-footer h5{
+
+footer h5 {
     font-size: 1.5rem;
 }
 
@@ -414,42 +413,107 @@ footer a {
         margin-bottom: -60px;
     }
 
-    #service .card {
-        width: 320px;
-        height: 275px;
-        margin: auto;
-        margin-bottom: 20px;
-    }
 
     .about .img1 img {
         width: 350px;
         height: 350px;
         margin-bottom: 20px;
     }
+
+    .back {
+        margin: 10px;
+        margin-left: 1px;
+    }
+
+    .skill-bar {
+        width: 90%;
+    }
+
+    .skill-percent {
+        padding-left: 180px;
+    }
 }
 
-@media screen and (min-width:480px) and (max-width:768px) {
+@media screen and (min-width:480px) and (max-width:668px) {
+    .skill-bar {
+        width: 90%;
+    }
+
+    .skill-percent {
+        padding-left: 180px;
+    }
+
+    .skill-title {
+        margin-left: -60px;
+    }
+
+    .back {
+        padding-top: 15px;
+        width: 400px;
+        margin-left: 55px;
+    }
+
+    .back-1 {
+        padding-top: 15px;
+        width: 400px;
+        margin-left: 55px;
+    }
+
+    #skill .row {
+        margin-left: -40px;
+    }
+}
+
+@media screen and (min-width:688px) and (max-width:768px) {
     .header .navbar-nav {
         padding-left: 12rem;
     }
 
-    .card-hover{
+    .card-hover {
         margin: 20px;
         height: 220px;
     }
-    .skill-bar{
+
+    .skill-bar {
         width: 80%;
+    }
+
+    .back {
+        margin: 10px;
+        width: 450px;
+        margin-left: 35px;
+    }
+
+    .back-1 {
+        margin-left: 10px;
+        width: 450px;
+        margin-left: 35px;
+    }
+
+    .section-title {
+        padding-right: 25px;
+    }
+
+    .skill-title {
+        padding-right: 30px;
+    }
+
+    .skill-percent {
+        padding-left: 215px;
+    }
+
+    #skill .row {
+        margin-left: -50px;
     }
 
 }
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:768px) and (max-width:802px) {
     .home img {
         height: 400px;
         width: 400px;
         padding-top: 20px;
         margin-top: -100px;
-
     }
 
     .home .container h1,
@@ -465,39 +529,123 @@ footer a {
         font-size: 1.3rem;
     }
 
-    .expertise{
+    .skill-bar {
+        width: 45%;
+    }
+
+    .skill-title {
+        margin-left: -50px;
+    }
+
+    .skill-percent {
+        margin-left: -140px;
+    }
+
+    .back-1 {
+        width: 400px;
+        padding-top: 10px;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width:802px) and (max-width:992px) {
+    .home img {
+        height: 400px;
+        width: 400px;
+        padding-top: 20px;
+        margin-top: -100px;
+    }
+
+    .home .container h1,
+    h3 {
+        font-size: 2rem;
+    }
+
+    .home .container p {
+        font-size: 1.5rem;
+    }
+
+    .home .container p span {
+        font-size: 1.3rem;
+    }
+
+    .expertise {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
     }
 
-    #service .back{
-        padding-top: 15px;
-        margin-left: 180px;
-        width: 380px;
-    }
 
     .about .about-text p {
         font-size: 1.2rem;
     }
 
-    .about-me img{
+    .about-me img {
         width: 500px;
         height: 500px;
     }
 
-    .about-me h2{
+    .about-me h2 {
         margin-top: -1rem;
+    }
+
+    .back-1 {
+        width: 370px;
+        padding-top: 10px;
+        margin-left: 175px;
+    }
+
+    .skill-percent {
+        padding-left: 150px;
+    }
+
+    .skill-bar {
+        width: 38%;
+    }
+
+    #skill .row {
+        margin-left: -50px;
     }
 
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-    #service .card {
+    /* #service .card {
         width: 450px;
+    } */
+
+    .header .navbar-nav {
+        padding-left: 15rem;
     }
 
     .header .navbar-nav .nav-item {
         margin-right: 2px;
+    }
+
+    .skill-bar {
+        width: 42%;
+    }
+
+    .skill-percent {
+        padding-left: 185px;
+    }
+
+    .skill-title {
+        padding-right: 40px;
+    }
+
+    .back-1 {
+        padding-top: 10px;
+        width: 370px;
+        margin-left: 300px;
+    }
+
+    .back {
+        width: 370px;
+        margin-left: 75px;
+    }
+
+    .expertise {
+        margin-left: -8px;
     }
 }
